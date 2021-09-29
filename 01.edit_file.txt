@@ -1,0 +1,13 @@
+Case 1: Edit readme.txt
+1. git status
+2. git add readme.txt
+3. git status
+4. git commit -m "edit readme.txt case 01"
+5. git status
+
+Case 2: Edit file readme.txt
+1. git status
+4. git commit -m "edit file readme.txt case 02"
+4. git commit -a -m "edit file readme.txt case 02"
+4. git status
+5. git logs

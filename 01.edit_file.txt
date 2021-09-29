@@ -10,4 +10,4 @@ Case 2: Edit file readme.txt
 4. git commit -m "edit file readme.txt case 02"
 4. git commit -a -m "edit file readme.txt case 02"
 4. git status
-5. git logs
+5. git log

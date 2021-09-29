@@ -1,0 +1,4 @@
+*** Cấu hình git ***
+---------------------
+  git config --global user.email "phongvuong.info@gmail.com"
+  git config --global user.name "azadisoff"

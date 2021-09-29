@@ -24,7 +24,12 @@ cd [name]    //chuyển đến thư mục làm việc
 *** tạo & xóa một tập tin mới  ***
 ================================================== -->
 touch [name] //tạo một tập tin mới
-rm [name] //xóa một tập tin
+rm [filename] //xóa tập tin như ở hệ điều hành
+git rm --cached [filename] // xóa khỏi vùng Staged
+git rm -f [filename] // xóa tập tin trong vùng Staged
+git restore --staged [filename] // phục hồi tập tin vùng Staged
+git restore [filename] // phục hồi tập tin đã delete
+
 <!-- ==================================================
 *** khởi tạo Git trên thư mục đã chọn ***
 ================================================== -->

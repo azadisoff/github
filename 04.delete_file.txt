@@ -1,9 +1,8 @@
 Case : Các trường hợp xóa tập tin
 
-1. sử dụng lệnh: RM [FILENAME] // tập tin chưa được Git quản lý
     rm [filename] //xóa tập tin như ở hệ điều hành
-2. sử dụng lệnh: GIT RM [FILENAME] // tập tin được Git quản lý
     git rm --cached [filename] // xóa khỏi vùng Staged
-    git rm -f [filename] // xóa tập tin
-    git commit -m "delete filename"
-3. sử dụng lệnh: GIT RM -F [FILENAME]
+    git rm -f [filename] // xóa tập tin trong vùng Staged
+    git restore --staged [filename] // phục hồi tập tin vùng Staged
+    git restore [filename] // phục hồi tập tin đã delete
+

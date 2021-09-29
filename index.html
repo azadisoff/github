@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- ==================================================
+*** cấu hình lần đầu tiên cho Local repository ***
+================================================== -->
+config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+
+<!-- ==================================================
+*** tạo một thư mục mới cho dự án của chúng ta ***
+================================================== -->
+mkdir [name] //tạo thư mục mới
+cd [name]    //chuyển đến thư mục làm việc
+
+<!-- ==================================================
+*** tạo một tập tin mới  ***
+================================================== -->
+touch [name] //tạo một tập tin mới
+
+<!-- ==================================================
+*** khởi tạo Git trên thư mục đã chọn ***
+================================================== -->
+git init //create Git local repository
+
+<!-- ==================================================
+*** liệt kê danh sách các tiệp trong thư mục ***
+================================================== -->
+ls //danh sách các tập tin và thư mục
+
+<!-- ==================================================
+*** kiểm tra trạng thái Git ***
+================================================== -->
+git status
+git status --short //xem trạng thái ngắn gọn của file
+
+Note:   ?? - Tệp không theo dõi
+        A - Các tệp được thêm vào vùng hiển thị
+        M - Các tệp đã sửa đổi
+        D - Các tệp đã xóa
+
+<!-- ==================================================
+*** thêm file vào Staged ***
+================================================== -->
+git add [file]
+git add * //thêm tất cả các file
+
+<!-- ==================================================
+*** chuyển từ staged sang commit cho repository ***
+================================================== -->
+git commit -m "comment"
+git commit -a -m "comment" //bỏ qua bước git add [file]
+
+<!-- ==================================================
+*** xem lịch sử các cam kết cho một kho lưu trữ ***
+================================================== -->
+git log
+git log --oneline
+
+<!-- ==================================================
+*** phân nhánh trong Git ***
+================================================== -->
+git branch [name]   //create một phân nhánh
+git branch -d [name]   //delete một phân nhánh
+git branch          //xem nhánh đang làm việc
+git checkout [name] //chuyển sang nhánh mới
+git checkout -b [name] //create và chuyển sang nhánh mới
+
+<!-- ==================================================
+*** hợp nhất các phân nhánh vào nhánh chính ***
+================================================== -->
+git checkout master // chọn nhánh chính
+git merge branch    // hợp nhất với phân nhánh
+
+<!-- ==================================================
+*** Git ignore ***
+================================================== -->
+touch .gitignore //khởi tạo tập tin .gitignore
+
+
+    
+</body>
+</html>

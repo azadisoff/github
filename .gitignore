@@ -1,1 +1,8 @@
+# list file
 test_file.txt
+
+# bỏ qua tất cả các tiệp .log
+*.log
+
+# bỏ qua TẤT CẢ các tệp trong BẤT KỲ thư mục nào có tên temp
+temp/

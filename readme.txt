@@ -5,7 +5,7 @@ Bắt đầu là "working area" (xem thêm: hướng dẫn trợ giúp git)
    init              Tạo một kho lưu trữ Git trống hoặc khởi động lại một kho hiện có
 
 làm việc với current change (xem thêm: git help daily)
-   add               Add nội dung tệp vào chỉ mục
+   add               Add nội dung tệp vào staged
    mv                Move hoặc rename tệp, thư mục hoặc liên kết biểu tượng
    restore           Restore Khôi phục các tệp cây làm việc
    rm                Remove Xóa tệp khỏi cây làm việc và khỏi chỉ mục

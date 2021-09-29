@@ -1,0 +1,7 @@
+Case : Sử dụng .gitignore để không theo dõi các tập tin được chỉ định (từ chối một số file được thêm vào vùng Staged)
+
+sử dụng lệnh: TOUCH .GITIGNORE
+
+1. git status
+2. git touch .gitignore // mở file và cập nhật nội dung
+3. Công cụ Online https://www.gitignore.io

@@ -1,3 +1,4 @@
+thêm 1 dòng code từ trên remote repository.
 Đây là các lệnh Git phổ biến được sử dụng trong các tình huống khác nhau:
 
 Bắt đầu là "working area" (xem thêm: hướng dẫn trợ giúp git)

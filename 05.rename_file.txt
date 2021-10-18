@@ -1,0 +1,1 @@
+git mv [filename] [filename] // đổi tên tập tin 

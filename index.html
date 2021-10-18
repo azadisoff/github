@@ -9,19 +9,29 @@
 <body>
 
 <!-- ==================================================
-*** cấu hình lần đầu tiên cho Local repository ***
+*** khởi tạo Git trên thư mục đã chọn ***
+================================================== -->
+git init //create Git local repository
+
+<!-- ==================================================
+*** cấu hình lần đầu tiên cho Local repository ***    
 ================================================== -->
 config --global user.name "w3schools-test"
 git config --global user.email "test@w3schools.com"
 
 <!-- ==================================================
-*** tạo một thư mục mới cho dự án của chúng ta ***
+*** liệt kê danh sách các tiệp trong thư mục ***
+================================================== -->
+ls //danh sách các tập tin và thư mục
+
+<!-- ==================================================
+*** tạo một thư mục mới cho dự án của chúng ta ***    
 ================================================== -->
 mkdir [name] //tạo thư mục mới
 cd [name]    //chuyển đến thư mục làm việc
 
 <!-- ==================================================
-*** tạo & xóa một tập tin mới  ***
+*** tạo & xóa một tập tin mới  ***    
 ================================================== -->
 touch [name] //tạo một tập tin mới
 rm [filename] //xóa tập tin như ở hệ điều hành
@@ -31,14 +41,9 @@ git restore --staged [filename] // phục hồi tập tin vùng Staged
 git restore [filename] // phục hồi tập tin đã delete
 
 <!-- ==================================================
-*** khởi tạo Git trên thư mục đã chọn ***
+*** đổi tên một tập tin mới  ***    
 ================================================== -->
-git init //create Git local repository
-
-<!-- ==================================================
-*** liệt kê danh sách các tiệp trong thư mục ***
-================================================== -->
-ls //danh sách các tập tin và thư mục
+git mv [filename] [filename] // đổi tên tập tin 
 
 <!-- ==================================================
 *** kiểm tra trạng thái Git ***

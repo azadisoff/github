@@ -1,0 +1,13 @@
+<!-- ==================================================
+*** Remote Repository ***
+================================================== -->
+git remote add origin [URL] //thêm tên của Remote
+git remote rm remote-name //xóa một địa chỉ remote
+git remote -v //xem thông tin các Remote có trong Local
+git remote show origin //xem thông tin chi tiết về một Remote
+git remote rename origin azadi //đổi tên một Remote trong Local
+
+git fetch origin //kiểm tra dữ liệu mới từ Remote Repository
+git pull origin main //Lấy toàn bộ dữ liệu mới theo Remote
+git push origin main //cập nhật dữ liệu từ Local lên Remote
+git push origin main --force //ghi đè toàn bộ dữ liệu từ Local lên remote
